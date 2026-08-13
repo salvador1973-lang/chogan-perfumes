@@ -54,7 +54,7 @@
             font-style: italic;
         }
         
-        /* HERO SECTION CON TU NUEVA IMAGEN PRINCIPAL */
+        /* HERO SECTION */
         .hero { 
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), 
                         url('https://i.ibb.co/S4vZFTC5/IMG-4284.jpg');
@@ -114,7 +114,7 @@
             box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
         }
         
-        /* GALERÍA DE NUEVAS IMÁGENES */
+        /* GALERÍA DE IMÁGENES */
         .gallery-section {
             padding: 80px 0;
             background: #0f0f0f;
@@ -162,7 +162,7 @@
             transform: scale(1.05);
         }
         
-        /* SECCIÓN "ELEGANCIA QUE DEJA HUELLA" */
+        /* SECCIÓN ELEGANCIA */
         .elegance-section {
             padding: 100px 0;
             background: #111;
@@ -337,6 +337,51 @@
             color: #000; 
             border-color: #d4af37; 
         }
+
+        /* SECCIÓN DE LA FOTO DE LA LISTA DE PRECIOS */
+        .price-image-section {
+            padding: 80px 0;
+            background: #0a0a0a;
+            border-top: 1px solid #222;
+            border-bottom: 1px solid #222;
+            text-align: center;
+        }
+        
+        .price-image-section h2 {
+            color: #d4af37;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .price-image-section p {
+            color: #ccc;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .price-image-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #333;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .price-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+            border-color: #d4af37;
+        }
+        
+        .price-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
         
         /* SECCIÓN DE CONTACTO */
         .contact { 
@@ -457,7 +502,7 @@
         </div>
     </header>
 
-    <!-- HERO SECTION CON TU NUEVA IMAGEN PRINCIPAL -->
+    <!-- HERO SECTION -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -468,7 +513,7 @@
         </div>
     </section>
 
-    <!-- GALERÍA DE TUS NUEVAS IMÁGENES -->
+    <!-- GALERÍA DE IMÁGENES -->
     <section class="gallery-section">
         <div class="container">
             <h2>✨ La Esencia Visual Chogan ✨</h2>
@@ -493,7 +538,7 @@
         </div>
     </section>
 
-    <!-- SECCIÓN "ELEGANCIA QUE DEJA HUELLA" -->
+    <!-- SECCIÓN ELEGANCIA -->
     <section class="elegance-section">
         <div class="container">
             <div class="elegance-content">
@@ -578,6 +623,19 @@
                         <a href="https://www.chogangroupspa.com/referral/SAL28A7EA/ES" class="btn-card" target="_blank">Comprar Ahora</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: LISTA DE PRECIOS COMPLETA (FOTO QUE ME PEDISTE) -->
+    <section class="price-image-section">
+        <div class="container">
+            <h2>📋 Lista de Precios Completa</h2>
+            <p>Consulta todos los perfumes disponibles, sus inspiraciones y precios. Calidad extra con 30% de concentración.</p>
+            
+            <div class="price-image-container">
+                <!-- Aquí está la foto de la lista de precios que me mostraste -->
+                <img src="https://i.ibb.co/S4vZFTC5/IMG-4284.jpg" alt="Lista de precios de perfumes Chogan réplicas">
             </div>
         </div>
     </section>
